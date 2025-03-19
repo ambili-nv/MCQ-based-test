@@ -12,7 +12,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: '*',
+    origin: '/https://mcq-based-test.vercel.app',
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
 }));
