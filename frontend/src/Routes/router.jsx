@@ -2,7 +2,7 @@ import React from "react";
 import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 
-const Login = lazy(()=>import('../pages/login'))
+const Login = lazy(()=>import('../pages/Login'))
 const Register = lazy(()=>import('../pages/Register'))
 const TaskPage = lazy(()=>import('../pages/Tasks'))
 const Feedback = lazy(()=>import('../pages/Feedback'))
