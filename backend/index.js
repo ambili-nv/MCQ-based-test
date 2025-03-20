@@ -18,7 +18,7 @@ const app = express();
 // }));
 
 app.use(cors({
-    origin: 'https://mcq-based-test.vercel.app/',
+    origin: 'https://mcq-based-test.vercel.app',
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
 }));
