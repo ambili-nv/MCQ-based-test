@@ -15,7 +15,7 @@ function Onboarding() {
 
   const handleGetStarted = () => {
     if (isChecked) {
-      navigate("/login");  
+      navigate("/tasks");  
     } else {
       showToast("Please confirm the terms and conditions.","error")
     }
