@@ -38,7 +38,7 @@ useEffect(()=>{
             const access_token = response.data.token;
             localStorage.setItem("access_token", access_token);
             showToast(response.data.message, "success");
-            navigate('/tasks');
+            navigate('/');
         } catch (error) {
             console.error('Login Error:', error);
             showToast('Login failed, please check your credentials', 'error');
